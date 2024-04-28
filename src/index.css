@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-pagination-bullet{
+   background: transparent;
+   width: 15px;
+   height: 15px;
+   border: 2px solid #fff;
+}
+.swiper-pagination-bullet-active{
+   background: #fff;
+}
+.about-page{
+   background: url('./assets/slide3.jpg') no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+.sermon-page{
+   background: url('./assets/bible.jpg') no-repeat;
+   background-position: center;
+   background-size: cover;
+}
